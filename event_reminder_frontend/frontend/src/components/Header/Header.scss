@@ -1,0 +1,19 @@
+.header-container {
+    width: 100%;
+    padding: 15px 30px; // Add some padding
+    background: white;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; // Vertically align items
+    box-sizing: border-box; // Include padding in width calculation
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Optional shadow
+    margin-bottom: 20px; // Space below header
+
+    .user-info {
+        display: flex; // Use flexbox for alignment
+        align-items: center; // Align items vertically
+        gap: 15px; // Space between name and button
+        color: black;
+        font-weight: bold;
+    }
+}

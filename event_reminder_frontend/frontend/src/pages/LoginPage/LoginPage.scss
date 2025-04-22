@@ -1,0 +1,17 @@
+.login-page {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: rgba(193, 241, 255, 0.47);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .form-container {
+        padding: 25px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+}

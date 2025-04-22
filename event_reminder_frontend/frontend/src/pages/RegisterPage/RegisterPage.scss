@@ -1,0 +1,17 @@
+.register-page {
+    width: 100vw; // Use viewport width
+    height: 100vh; // Use viewport height
+    position: relative;
+    background: rgba(193, 241, 255, 0.47);
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;   /* Center vertically */
+
+    .form-container {
+        padding: 25px; // Increased padding
+        background: white;
+        border-radius: 10px; // Add border radius
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Add subtle shadow
+    }
+}

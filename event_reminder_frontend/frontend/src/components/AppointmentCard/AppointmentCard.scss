@@ -1,0 +1,37 @@
+.appointment-card {
+    position: relative;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    h3 {
+        margin-top: 0;
+        margin-bottom: 8px;
+    }
+
+    .time {
+        font-weight: bold;
+        margin-bottom: 8px;
+
+        &.upcoming {
+            color: #38A7FF;
+        }
+
+        &.overdue {
+            color: #FF4D4D; // Red color for overdue appointments
+        }
+    }
+
+    .description {
+        margin-bottom: 15px;
+        color: #555;
+    }
+
+    .actions {
+        display: flex;
+        justify-content: flex-end; // Align buttons to the right
+        gap: 10px; // Space between buttons
+    }
+}
